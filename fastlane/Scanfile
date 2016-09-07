@@ -1,0 +1,5 @@
+scheme "FastlaneTest"
+output_types "junit"
+device "iPhone 5s (9.3)"
+code_coverage true
+derived_data_path "build"

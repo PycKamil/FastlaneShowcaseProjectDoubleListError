@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "e13dad30e27c23bcb6523f930242be9c"
+build_time: [526546997, 644669000]
+inputs:
+  "/Users/kamil.pyc/Documents/testFastlane/FastlaneTest/FastlaneTest/ViewController.swift": [526546766, 0]
+  "/Users/kamil.pyc/Documents/testFastlane/FastlaneTest/FastlaneTest/AppDelegate.swift": [526546766, 0]

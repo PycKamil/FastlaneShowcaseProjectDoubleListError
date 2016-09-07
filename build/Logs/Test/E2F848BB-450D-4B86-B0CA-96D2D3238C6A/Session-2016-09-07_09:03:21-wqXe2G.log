@@ -1,0 +1,763 @@
+09:03:21.551 xcodebuild[24329:1588679] Beginning test session EC684A95-F026-42C3-BF98-38F32F2FB7A8 with Xcode 7D1014 on target <DVTiPhoneSimulator: 0x7f7f9d6f4680> {
+		SimDevice: SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }
+} (9.3 (13E230))
+09:03:21.551 xcodebuild[24329:1588679] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+-scheme
+FastlaneTest
+-project
+./FastlaneTest.xcodeproj
+-destination
+platform=iOS Simulator,id=869F8A89-3DDA-4538-9E28-0BCFBDADD2D1
+-derivedDataPath
+build
+-enableCodeCoverage
+YES
+build
+test
+09:03:21.551 xcodebuild[24329:1588679] Launching with Xcode.IDEFoundation.Launcher.PosixSpawn
+09:03:21.551 xcodebuild[24329:1588679] Initializing test infrastructure.
+09:03:21.552 xcodebuild[24329:1588703] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Registered for sim device notification, got token 4
+09:03:21.552 xcodebuild[24329:1588703] Sim iPhone 5s is not booted, will wait up to 120 seconds.
+09:03:21.709 xcodebuild[24329:1588679] Received Ready from iPhoneSimulator
+09:03:21.709 xcodebuild[24329:1588679] Sending notification: NSConcreteNotification 0x7f7f9dc070d0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "869F8A89-3DDA-4538-9E28-0BCFBDADD2D1";
+}}
+09:03:21.710 xcodebuild[24329:1588679] Received Ready from iPhoneSimulator
+09:03:21.710 xcodebuild[24329:1588679] Sending notification: NSConcreteNotification 0x7f7f9ddb8090 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "869F8A89-3DDA-4538-9E28-0BCFBDADD2D1";
+}}
+09:03:21.739 xcodebuild[24329:1589386] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Received sim device notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.739 xcodebuild[24329:1589385] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.739 xcodebuild[24329:1588860] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Received sim device notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.739 xcodebuild[24329:1588859] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Received sim device notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.739 xcodebuild[24329:1589387] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.739 xcodebuild[24329:1589389] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.739 xcodebuild[24329:1588860] Got a sim device notification for iPhone 5s: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1588859] Got a sim device notification for iPhone 5s: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1588860] Sim iPhone 5s state changed to 2
+09:03:21.740 xcodebuild[24329:1588859] Sim iPhone 5s state changed to 2
+09:03:21.740 xcodebuild[24329:1589388] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1589386] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1589385] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1588859] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1589387] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1589388] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1589389] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1589392] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1589386] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1589385] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1588859] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1589391] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1589388] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.740 xcodebuild[24329:1589389] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.741 xcodebuild[24329:1588860] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+09:03:21.908 xcodebuild[24329:1588859] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Received sim device notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.908 xcodebuild[24329:1589393] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Received sim device notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.908 xcodebuild[24329:1588860] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.908 xcodebuild[24329:1589389] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1589391] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1589386] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1589385] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1589392] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1589387] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1588859] Got a sim device notification for iPhone 5s: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1588859] Sim iPhone 5s state changed to 3
+09:03:21.909 xcodebuild[24329:1589389] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1588860] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1588793] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Unregistering for sim device notification with token 3
+09:03:21.909 xcodebuild[24329:1589471] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1589472] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1589470] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1588793] Sim iPhone 5s is booted (state = 3)
+09:03:21.909 xcodebuild[24329:1589390] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Received sim device notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1589473] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1589393] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1589386] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1589391] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.909 xcodebuild[24329:1588793] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+09:03:21.910 xcodebuild[24329:1589385] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.910 xcodebuild[24329:1589388] /Users/kamil.pyc/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.910 xcodebuild[24329:1589390] Got a sim device notification for iPhone 5s: {
+    device = "SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+09:03:21.910 xcodebuild[24329:1589390] Sim iPhone 5s state changed to 3
+09:03:21.910 xcodebuild[24329:1588703] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Unregistering for sim device notification with token 4
+09:03:21.910 xcodebuild[24329:1588703] Sim iPhone 5s is booted (state = 3)
+09:03:21.910 xcodebuild[24329:1588703] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+09:03:21.955 xcodebuild[24329:1588703] Returning /private/tmp/com.apple.launchd.5q14VZopIR/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+09:03:21.955 xcodebuild[24329:1588703] Sim iPhone 5s has testmanagerd socket at /private/tmp/com.apple.launchd.5q14VZopIR/com.apple.testmanagerd.unix-domain.socket
+09:03:21.956 xcodebuild[24329:1588703] Connected to testmanagerd socket for Sim iPhone 5s
+09:03:21.956 xcodebuild[24329:1588703] Creating the connection.
+09:03:21.956 xcodebuild[24329:1588793] Returning /private/tmp/com.apple.launchd.5q14VZopIR/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+09:03:21.957 xcodebuild[24329:1588793] Sim iPhone 5s has testmanagerd socket at /private/tmp/com.apple.launchd.5q14VZopIR/com.apple.testmanagerd.unix-domain.socket
+09:03:21.957 xcodebuild[24329:1588703] Listening for proxy connection request from the test bundle (all platforms)
+09:03:21.957 xcodebuild[24329:1588793] Connected to testmanagerd socket for Sim iPhone 5s
+09:03:21.957 xcodebuild[24329:1588703] Resuming the connection.
+09:03:21.957 xcodebuild[24329:1588703] Test connection requires daemon assistance.
+09:03:21.957 xcodebuild[24329:1588679] Checking test manager availability..., will wait up to 120s
+09:03:21.958 xcodebuild[24329:1588679] Starting test session with ID <__NSConcreteUUID 0x7f7f9df06690> EC684A95-F026-42C3-BF98-38F32F2FB7A8
+09:03:27.079 xcodebuild[24329:1588679] Received Ready from iPhoneSimulator
+09:03:27.079 xcodebuild[24329:1588679] Sending notification: NSConcreteNotification 0x7f7f9d69d7b0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "869F8A89-3DDA-4538-9E28-0BCFBDADD2D1";
+}}
+09:03:27.084 xcodebuild[24329:1589475] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Registered for sim device notification, got token 5
+09:03:27.085 xcodebuild[24329:1588706] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Unregistering for sim device notification with token 5
+09:03:27.085 xcodebuild[24329:1588679] Received Ready from iPhoneSimulator
+09:03:27.085 xcodebuild[24329:1588679] Sending notification: NSConcreteNotification 0x7f7f9df15290 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "869F8A89-3DDA-4538-9E28-0BCFBDADD2D1";
+}}
+09:03:27.087 xcodebuild[24329:1589391] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Installing app at path: /Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FastlaneTest.app and options: {
+    CFBundleIdentifier = "com.-KamilPyc.FastlaneTest";
+}
+09:03:29.646 xcodebuild[24329:1588706] testmanagerd handled session request.
+09:03:29.646 xcodebuild[24329:1588679] Waiting for test process to launch.
+09:03:31.260 xcodebuild[24329:1589391] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Installed app at path: /Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FastlaneTest.app and options: {
+    CFBundleIdentifier = "com.-KamilPyc.FastlaneTest";
+}
+09:03:31.267 xcodebuild[24329:1589391] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Registered for sim device notification, got token 6
+09:03:31.267 xcodebuild[24329:1589388] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Unregistering for sim device notification with token 6
+09:03:31.268 xcodebuild[24329:1588679] Received Ready from iPhoneSimulator
+09:03:31.268 xcodebuild[24329:1588679] Sending notification: NSConcreteNotification 0x7f7fa0004c60 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "869F8A89-3DDA-4538-9E28-0BCFBDADD2D1";
+}}
+09:03:31.762 xcodebuild[24329:1589391] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Launching app with identifier: com.-KamilPyc.FastlaneTest and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+        "DYLD_FRAMEWORK_PATH" = "/Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection";
+        "DYLD_LIBRARY_PATH" = "/Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "LLVM_PROFILE_FILE" = "/var/folders/sr/mgl8nbtx3llcc_7s79hbqyxn72jyd2/T/com.-KamilPyc.FastlaneTest/E7BB0301-919A-4C8D-9752-7C8DD6653A26-24329-000017CAC7827B2F/FastlaneTest.app-%p.profdata";
+        NSApplicationQuitWithoutSuddenTermination = YES;
+        NSUnbufferedIO = YES;
+        "OBJC_DISABLE_GC" = YES;
+        XCInjectBundleInto = "/Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FastlaneTest.app/FastlaneTest";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FastlaneTest.app/PlugIns/FastlaneTestTests.xctest/FastlaneTestTests-D4C7F214-0FC2-49E6-BA8F-8738FFCB3FDC.xctestconfiguration";
+        "__XPC_LLVM_PROFILE_FILE" = "/var/folders/sr/mgl8nbtx3llcc_7s79hbqyxn72jyd2/T/com.-KamilPyc.FastlaneTest/E7BB0301-919A-4C8D-9752-7C8DD6653A26-24329-000017CAC7827B2F/FastlaneTest.app-%p.profdata";
+    };
+    stderr = "/dev/ttys002";
+    stdout = "/dev/ttys002";
+    "wait_for_debugger" = 0;
+}
+09:03:32.066 xcodebuild[24329:1591914] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Launched app with identifier: com.-KamilPyc.FastlaneTest (pid = 24483)
+09:03:32.067 xcodebuild[24329:1591914] Tracking pid 24483 for simulator <DVTiPhoneSimulator: 0x7f7f9d6f4680> {
+		SimDevice: SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }
+}
+09:03:32.067 xcodebuild[24329:1591914] Checking to see if pid 24483 is valid: kill(pid, 0) = 0 (YES, it's still running)
+09:03:32.067 xcodebuild[24329:1591914] Setting up DVTNotifyOnProcDeath for pid 24483
+09:03:32.732 xcodebuild[24329:1591914] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Registered for sim device notification, got token 7
+09:03:32.732 xcodebuild[24329:1591914] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Unregistering for sim device notification with token 7
+09:03:32.732 xcodebuild[24329:1591914] Sim iPhone 5s is booted (state = 3)
+09:03:32.732 xcodebuild[24329:1591914] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+09:03:32.733 xcodebuild[24329:1591914] Returning /private/tmp/com.apple.launchd.5q14VZopIR/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+09:03:32.733 xcodebuild[24329:1591914] Sim iPhone 5s has testmanagerd socket at /private/tmp/com.apple.launchd.5q14VZopIR/com.apple.testmanagerd.unix-domain.socket
+09:03:32.733 xcodebuild[24329:1591914] Connected to testmanagerd socket for Sim iPhone 5s
+09:03:33.106 xcodebuild[24329:1588679] Got death notice for pid 24483, removing from SimulatorSessionMap
+09:03:33.366 xcodebuild[24329:1588679] Launch session started, setting a disallow-finish-token on the run operation.
+09:03:33.373 xcodebuild[24329:1588679] Received Ready from iPhoneSimulator
+09:03:33.374 xcodebuild[24329:1588679] Sending notification: NSConcreteNotification 0x7f7f9d7e6f70 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "869F8A89-3DDA-4538-9E28-0BCFBDADD2D1";
+}}
+09:03:33.374 xcodebuild[24329:1588679] Adding console adaptor <IDEConsoleAdaptor: 0x7f7f9d5d7fe0 'target'> for test session EC684A95-F026-42C3-BF98-38F32F2FB7A8.
+09:03:33.379 xcodebuild[24329:1591914] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Registered for sim device notification, got token 8
+09:03:33.379 xcodebuild[24329:1592185] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Unregistering for sim device notification with token 8
+09:03:33.380 xcodebuild[24329:1588679] Received Ready from iPhoneSimulator
+09:03:33.381 xcodebuild[24329:1588679] Sending notification: NSConcreteNotification 0x7f7f9dc02230 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "869F8A89-3DDA-4538-9E28-0BCFBDADD2D1";
+}}
+09:03:33.381 xcodebuild[24329:1592185] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Installing app at path: /Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FastlaneTestUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.FastlaneTestUITests-Runner";
+}
+09:03:36.103 xcodebuild[24329:1592185] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Installed app at path: /Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FastlaneTestUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.FastlaneTestUITests-Runner";
+}
+09:03:36.104 xcodebuild[24329:1592185] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Launching app with identifier: com.apple.test.FastlaneTestUITests-Runner and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+        "DYLD_FRAMEWORK_PATH" = "/Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "DYLD_LIBRARY_PATH" = "/Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "LLVM_PROFILE_FILE" = "/var/folders/sr/mgl8nbtx3llcc_7s79hbqyxn72jyd2/T/com.apple.test.FastlaneTestUITests-Runner/9079B937-D293-435B-9159-70FAB918A142-24329-000017CAC9296B8E/FastlaneTest.app-%p.profdata";
+        NSApplicationQuitWithoutSuddenTermination = YES;
+        NSUnbufferedIO = YES;
+        "OBJC_DISABLE_GC" = YES;
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FastlaneTestUITests-Runner.app/PlugIns/FastlaneTestUITests.xctest/FastlaneTestUITests-EC684A95-F026-42C3-BF98-38F32F2FB7A8.xctestconfiguration";
+        "__XPC_LLVM_PROFILE_FILE" = "/var/folders/sr/mgl8nbtx3llcc_7s79hbqyxn72jyd2/T/com.apple.test.FastlaneTestUITests-Runner/9079B937-D293-435B-9159-70FAB918A142-24329-000017CAC9296B8E/FastlaneTest.app-%p.profdata";
+    };
+    stderr = "/dev/ttys002";
+    stdout = "/dev/ttys002";
+    "wait_for_debugger" = 0;
+}
+09:03:36.137 xcodebuild[24329:1589391] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Launched app with identifier: com.apple.test.FastlaneTestUITests-Runner (pid = 24489)
+09:03:36.137 xcodebuild[24329:1589391] Tracking pid 24489 for simulator <DVTiPhoneSimulator: 0x7f7f9d6f4680> {
+		SimDevice: SimDevice : iPhone 5s (869F8A89-3DDA-4538-9E28-0BCFBDADD2D1) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }
+}
+09:03:36.137 xcodebuild[24329:1589391] Checking to see if pid 24489 is valid: kill(pid, 0) = 0 (YES, it's still running)
+09:03:36.137 xcodebuild[24329:1589391] Setting up DVTNotifyOnProcDeath for pid 24489
+09:03:36.472 xcodebuild[24329:1589391] Got proxy channel request from test bundle
+09:03:36.472 xcodebuild[24329:1589391] Test bundle is ready, running protocol 16, requires at least version 8. IDE is running 16 and requires at least 8
+09:03:36.472 xcodebuild[24329:1592185] Creating secondary transport and connection for whitelisting test process PID.
+09:03:36.472 xcodebuild[24329:1592185] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Registered for sim device notification, got token 9
+09:03:36.472 xcodebuild[24329:1592185] 869F8A89-3DDA-4538-9E28-0BCFBDADD2D1: Unregistering for sim device notification with token 9
+09:03:36.472 xcodebuild[24329:1592185] Sim iPhone 5s is booted (state = 3)
+09:03:36.472 xcodebuild[24329:1592185] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+09:03:36.473 xcodebuild[24329:1592185] Returning /private/tmp/com.apple.launchd.5q14VZopIR/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+09:03:36.473 xcodebuild[24329:1592185] Sim iPhone 5s has testmanagerd socket at /private/tmp/com.apple.launchd.5q14VZopIR/com.apple.testmanagerd.unix-domain.socket
+09:03:36.473 xcodebuild[24329:1592185] Connected to testmanagerd socket for Sim iPhone 5s
+09:03:36.473 xcodebuild[24329:1592185] Creating the connection.
+09:03:36.473 xcodebuild[24329:1592185] Resuming the secondary connection.
+09:03:36.473 xcodebuild[24329:1592185] Whitelisting test process ID 24489
+09:03:36.475 xcodebuild[24329:1592185] Got whitelisting response and daemon protocol version 16
+09:03:36.361 XCTRunner[24489:1592611] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built at Wednesday, March 16, 2016 at 1:32:00 AM Central European Standard Time
+09:03:36.361 XCTRunner[24489:1592611] Process arguments: (
+    "/Users/kamil.pyc/Library/Developer/CoreSimulator/Devices/869F8A89-3DDA-4538-9E28-0BCFBDADD2D1/data/Containers/Bundle/Application/42E7D668-1520-41AF-89B2-513338B6CA8E/FastlaneTestUITests-Runner.app/XCTRunner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+09:03:36.361 XCTRunner[24489:1592611] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/kamil.pyc/Library/Developer/CoreSimulator/Devices/869F8A89-3DDA-4538-9E28-0BCFBDADD2D1/data/Containers/Data/Application/975485D9-B4AD-4DAC-980F-3E991862CD23";
+    "CFLOG_FORCE_STDERR" = YES;
+    CLASSIC = 1;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.U59VROtYG7/Listeners";
+    "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    FBSClientLogging = 0;
+    HOME = "/Users/kamil.pyc/Library/Developer/CoreSimulator/Devices/869F8A89-3DDA-4538-9E28-0BCFBDADD2D1/data/Containers/Data/Application/975485D9-B4AD-4DAC-980F-3E991862CD23";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.869F8A89-3DDA-4538-9E28-0BCFBDADD2D1.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/kamil.pyc/Library/Developer/CoreSimulator/Devices/869F8A89-3DDA-4538-9E28-0BCFBDADD2D1/data";
+    "IPHONE_SIMULATOR_CLASS" = N51;
+    "IPHONE_SIMULATOR_DEVICE" = iPhone;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/kamil.pyc/Library/Developer/CoreSimulator/Devices/869F8A89-3DDA-4538-9E28-0BCFBDADD2D1/data/Library/Application Support/iPhone Simulator/com.apple.iphonesimulator/extended_display.plist";
+    "LLVM_PROFILE_FILE" = "/var/folders/sr/mgl8nbtx3llcc_7s79hbqyxn72jyd2/T/com.apple.test.FastlaneTestUITests-Runner/9079B937-D293-435B-9159-70FAB918A142-24329-000017CAC9296B8E/FastlaneTest.app-%p.profdata";
+    NSApplicationQuitWithoutSuddenTermination = YES;
+    NSUnbufferedIO = YES;
+    "OBJC_DISABLE_GC" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 5s.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 5s";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/kamil.pyc/Library/Developer/CoreSimulator/Devices/869F8A89-3DDA-4538-9E28-0BCFBDADD2D1/data/Library/Application Support/iPhone Simulator/com.apple.iphonesimulator/extended_display.plist";
+    "SIMULATOR_HOST_HOME" = "/Users/kamil.pyc";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/kamil.pyc/Library/Logs/CoreSimulator/869F8A89-3DDA-4538-9E28-0BCFBDADD2D1";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1136;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 640;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/kamil.pyc/Library/Developer/CoreSimulator/Devices/869F8A89-3DDA-4538-9E28-0BCFBDADD2D1/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone6,1";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 13E230;
+    "SIMULATOR_RUNTIME_VERSION" = "9.3";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/kamil.pyc/Library/Developer/CoreSimulator/Devices/869F8A89-3DDA-4538-9E28-0BCFBDADD2D1/data";
+    "SIMULATOR_UDID" = "869F8A89-3DDA-4538-9E28-0BCFBDADD2D1";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 209.19 - Device: iPhone 5s - Runtime: iOS 9.3 (13E230) - DeviceType: iPhone 5s";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.5q14VZopIR/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/kamil.pyc/Library/Developer/CoreSimulator/Devices/869F8A89-3DDA-4538-9E28-0BCFBDADD2D1/data/Containers/Data/Application/975485D9-B4AD-4DAC-980F-3E991862CD23/tmp";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FastlaneTestUITests-Runner.app/PlugIns/FastlaneTestUITests.xctest/FastlaneTestUITests-EC684A95-F026-42C3-BF98-38F32F2FB7A8.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.apple.test.FastlaneTestUITests-Runner[0x3e2d]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.869F8A89-3DDA-4538-9E28-0BCFBDADD2D1.launchd_sim";
+    "__XPC_LLVM_PROFILE_FILE" = "/var/folders/sr/mgl8nbtx3llcc_7s79hbqyxn72jyd2/T/com.apple.test.FastlaneTestUITests-Runner/9079B937-D293-435B-9159-70FAB918A142-24329-000017CAC9296B8E/FastlaneTest.app-%p.profdata";
+}
+09:03:36.362 XCTRunner[24489:1592611] Loading DTXConnectionServices from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework
+09:03:36.366 XCTRunner[24489:1592611] Session ID <__NSConcreteUUID 0x7fae096114c0> EC684A95-F026-42C3-BF98-38F32F2FB7A8
+09:03:36.366 XCTRunner[24489:1592611] Registering for testmanagerd availability notify post.
+09:03:36.367 XCTRunner[24489:1592611] testmanagerd availability confirmed via notify_get_state.
+09:03:36.367 XCTRunner[24489:1592611] Initiating connection to testmanagerd to request socket for IDE connection.
+09:03:36.470 XCTRunner[24489:1592638] Got socket 7 from daemon, making connection to IDE
+09:03:36.470 XCTRunner[24489:1592638] Creating connection with transport
+09:03:36.470 XCTRunner[24489:1592638] Resuming connection
+09:03:36.471 XCTRunner[24489:1592638] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:16 minimumVersion:8
+09:03:36.477 xcodebuild[24329:1588679] Starting test plan, clearing initialization timeout timer.
+09:03:36.477 XCTRunner[24489:1592611] Initializing for UI testing.
+09:03:36.477 XCTRunner[24489:1592611] Registering for UIApplicationDidEnterBackgroundNotification
+09:03:36.478 testmanagerd[24387:1592146] -[XCTestManager allowUITestControlForPID:] 24489 vs 24489
+09:03:36.478 XCTRunner[24489:1592611] Hitting home button to enter background.
+09:03:36.478 testmanagerd[24387:1592146] Got request for process assertion for pid 24489.
+09:03:36.479 testmanagerd[24387:1592146] Created process assertion for pid 24489: <BKSProcessAssertion: 0x7fea43604a30>, waiting for response from assertiond.
+09:03:36.481 testmanagerd[24387:1591435] Got reply for process assertion request, success: YES
+09:03:36.481 XCTRunner[24489:1592681] Got reply for background assertion.
+09:03:36.481 testmanagerd[24387:1592146] -[XCTestManager allowUITestControlForPID:] 24489 vs 24489
+09:03:36.481 testmanagerd[24387:1592146] Performing <XCDeviceEvent:0x7fea43500620 page 12 usage 64 duration 0.01s
+09:03:36.136 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:36.142 SpringBoard[24378] LICreateIconForImage passed NULL CGImageRef image
+09:03:36.250 XCTRunner[24489] assertion failed: 15G1004 13E230: libxpc.dylib + 57882 [66C28065-C9DB-3C8E-926F-5A40210A6D1B]: 0x7d
+09:03:36.267 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:36.267 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:36.274 SpringBoard[24378] [MPUSystemMediaControls] Updating supported commands for now playing application.
+09:03:36.318 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:36.318 XCTRunner[24489] Running tests...
+09:03:36.488 testmanagerd[24387:1592146] _AXSApplicationAccessibilityEnabled() returned false
+09:03:36.493 testmanagerd[24387:1592146] Waiting for AX to finish loading...
+09:03:37.237 testmanagerd[24387:1589508] AX is loaded
+09:03:37.238 testmanagerd[24387:1592146] AXDisableAccessibilityOnTermination() returned 0
+09:03:37.238 testmanagerd[24387:1592146] Created system wide AX element <AXUIElement 0x7fea43823ad0> {pid=0}
+09:03:37.240 testmanagerd[24387:1592146] Added 1021 notification to <AXObserver 0x7fea43a04020> {pid=0} for <AXUIElement 0x7fea43823ad0> {pid=0}: 0
+09:03:37.240 testmanagerd[24387:1592146] Added 1000 notification to <AXObserver 0x7fea43a04020> {pid=0} for <AXUIElement 0x7fea43823ad0> {pid=0}: 0
+09:03:37.240 testmanagerd[24387:1592146] Added 1005 notification to <AXObserver 0x7fea43a04020> {pid=0} for <AXUIElement 0x7fea43823ad0> {pid=0}: 0
+09:03:37.240 testmanagerd[24387:1592146] Added 1001 notification to <AXObserver 0x7fea43a04020> {pid=0} for <AXUIElement 0x7fea43823ad0> {pid=0}: 0
+09:03:37.241 testmanagerd[24387:1592146] Added 1011 notification to <AXObserver 0x7fea43a04020> {pid=0} for <AXUIElement 0x7fea43823ad0> {pid=0}: 0
+09:03:37.241 testmanagerd[24387:1592146] Added 4002 notification to <AXObserver 0x7fea43a04020> {pid=0} for <AXUIElement 0x7fea43823ad0> {pid=0}: 0
+09:03:37.241 testmanagerd[24387:1592146] Added 4000 notification to <AXObserver 0x7fea43a04020> {pid=0} for <AXUIElement 0x7fea43823ad0> {pid=0}: 0
+09:03:37.241 testmanagerd[24387:1592146] Added 4001 notification to <AXObserver 0x7fea43a04020> {pid=0} for <AXUIElement 0x7fea43823ad0> {pid=0}: 0
+09:03:37.241 testmanagerd[24387:1592146] Added 5000 notification to <AXObserver 0x7fea43a04020> {pid=0} for <AXUIElement 0x7fea43823ad0> {pid=0}: 0
+09:03:37.242 testmanagerd[24387:1592146] Dispatching device event synthesis to background queue
+09:03:37.242 testmanagerd[24387:1592145] Sleeping for 0.005000s before sending up event
+09:03:36.481 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:37.249 testmanagerd[24387:1592145] Device event sent.
+09:03:37.253 testmanagerd[24387:1589508] AX Notification 4002
+09:03:37.253 testmanagerd[24387:1589508] Got user testing notification with payload {
+    event = ButtonEventsCompleted;
+}
+09:03:37.253 testmanagerd[24387:1589508] Device event complete, replying to client.
+09:03:37.238 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:37.239 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:37.326 SpringBoard[24378] Weekly asset update check did fire (force=NO)
+09:03:37.326 SpringBoard[24378] Beginning check for asset updates (force: 0
+09:03:37.326 SpringBoard[24378] Did not complete check for asset updates (force: 0, isVoiceOverRunning: 0
+09:03:37.603 testmanagerd[24387:1589508] AX Notification 1021
+09:03:37.615 testmanagerd[24387:1589508] AX Notification 4002
+09:03:37.616 testmanagerd[24387:1589508] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidAppear;
+}
+09:03:37.616 testmanagerd[24387:1589508] AX Notification 4002
+09:03:37.616 testmanagerd[24387:1589508] Got user testing notification with payload {
+    controllerClass = SBSearchViewController;
+    event = ViewDidAppear;
+}
+09:03:37.616 testmanagerd[24387:1589508] AX Notification 4002
+09:03:37.616 testmanagerd[24387:1589508] Got user testing notification with payload {
+    controllerClass = SPUINavigationController;
+    event = ViewDidAppear;
+}
+09:03:37.616 testmanagerd[24387:1589508] AX Notification 4002
+09:03:37.617 testmanagerd[24387:1589508] Got user testing notification with payload {
+    controllerClass = SPUISearchViewController;
+    event = ViewDidAppear;
+}
+09:03:38.120 testmanagerd[24387:1589508] AX Notification 1021
+09:03:38.120 testmanagerd[24387:1589508] AX Notification 4002
+09:03:38.120 testmanagerd[24387:1589508] Got user testing notification with payload {
+    controllerClass = SBAppContainerViewController;
+    event = ViewDidDisappear;
+}
+09:03:38.122 XCTRunner[24489:1592611] Got UIApplicationDidEnterBackgroundNotification
+09:03:38.134 XCTRunner[24489:1592611] Entered background in 0.9s.
+09:03:38.135 XCTRunner[24489:1592611] Done initializing for UI testing.
+09:03:38.135 testmanagerd[24387:1592146] -[XCTestManager allowUITestControlForPID:] 24489 vs 24489
+09:03:38.135 XCTRunner[24489:1592611] -[XCTestDriver _runSuite]
+09:03:38.135 testmanagerd[24387:1592146] Registered for AX notification 4002
+09:03:38.135 XCTRunner[24489:1592611] Loading test suite...
+09:03:38.135 testmanagerd[24387:1592146] -[XCTestManager allowUITestControlForPID:] 24489 vs 24489
+09:03:38.136 testmanagerd[24387:1592146] Registered for AX notification 1006
+09:03:38.136 testmanagerd[24387:1592146] -[XCTestManager allowUITestControlForPID:] 24489 vs 24489
+09:03:38.136 testmanagerd[24387:1592146] Registered for AX notification 1021
+09:03:38.137 testmanagerd[24387:1589508] AX Notification 1011
+09:03:38.137 testmanagerd[24387:1589508] AX Notification 1011
+09:03:38.163 XCTRunner[24489:1592611] Finished loading test suite, took 0.028s
+09:03:38.164 XCTRunner[24489:1592611] -[_XCTestDriverTestObserver testBundleWillStart:]
+09:03:38.164 XCTRunner[24489:1592611] Running suite...
+09:03:38.164 XCTRunner[24489:1592611] -[_XCTestDriverTestObserver testSuiteWillStart:]
+09:03:41.168 xcodebuild[24329:1592185] (LOG ARBITER) Rotating message buffer with 212 messages.
+09:03:41.571 xcodebuild[24329:1588706] (LOG ARBITER) Dumping buffered message data; 212 messages.
+09:03:41.416 testmanagerd[24387:1589508] AX Notification 5000
+09:03:41.418 XCTRunner[24489:1592681] testmanagerd reported update to com.-KamilPyc.FastlaneTest, pid: 24490, status: 8
+09:03:41.417 testmanagerd[24387:1592146] Got application state update: com.-KamilPyc.FastlaneTest (24490) -> 8
+09:03:41.417 testmanagerd[24387:1589508] AX Notification 1021
+09:03:41.418 XCTRunner[24489:1592611] Updating pid for currentProcess <XCUIApplicationProcess: 0x7fae0961afb0 com.-KamilPyc.FastlaneTest (0)> to 24490
+09:03:41.418 testmanagerd[24387:1589508] AX Notification 1021
+09:03:41.418 XCTRunner[24489:1592681] Got AX notification 1021
+09:03:41.418 XCTRunner[24489:1592611] Done setting pid for <XCUIApplicationImpl: 0x7fae09449ff0 com.-KamilPyc.FastlaneTest at /Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FastlaneTest.app> to 24490
+09:03:41.418 XCTRunner[24489:1592681] Got kAXPidStatusChangedNotification for 24490: active
+09:03:41.418 XCTRunner[24489:1592611] App state updated for <XCUIApplicationImpl: 0x7fae09449ff0 com.-KamilPyc.FastlaneTest at /Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FastlaneTest.app>: XCApplicationStateRunningActive (3)
+09:03:41.418 XCTRunner[24489:1592643] <XCUIApplicationProcess: 0x7fae0961afb0 com.-KamilPyc.FastlaneTest (0)> pid 0 -> 24490
+09:03:41.419 XCTRunner[24489:1592643] <XCUIApplicationProcess: 0x7fae0961afb0 com.-KamilPyc.FastlaneTest (0)> checking for cached AX loaded value using pid 24490
+09:03:41.419 XCTRunner[24489:1592681] Got AX notification 1021
+09:03:41.419 XCTRunner[24489:1592681] Got kAXPidStatusChangedNotification for 24490: active
+09:03:41.419 XCTRunner[24489:1592643] <XCUIApplicationProcess: 0x7fae0961afb0 com.-KamilPyc.FastlaneTest (24490)> application state XCApplicationStateNotRunning (1) -> XCApplicationStateRunningActive (3)
+09:03:41.419 XCTRunner[24489:1593736] Monitor: set <XCUIApplicationProcess: 0x7fae0961afb0 com.-KamilPyc.FastlaneTest (0)> for pid 24490
+09:03:41.419 XCTRunner[24489:1592611] -[FastlaneTestUITests testExample] finished activity <XCActivityRecord: 0x7fae0c0c7880> 2016-09-07 07:03:41 +0000: Waiting for accessibility to load (0.354652s)
+09:03:41.420 XCTRunner[24489:1592611] Waiting for <XCUIApplicationImpl: 0x7fae09449ff0 com.-KamilPyc.FastlaneTest at /Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FastlaneTest.app> to be running-active
+09:03:41.421 XCTRunner[24489:1592611] -[FastlaneTestUITests testExample] started activity <XCActivityRecord: 0x7fae0c0c7880> 2016-09-07 07:03:41 +0000: Wait for app to idle
+09:03:41.422 testmanagerd[24387:1592146] -[XCTestManager allowUITestControlForPID:] 24489 vs 24489
+09:03:41.422 testmanagerd[24387:1592146] Getting screenshot
+09:03:41.440 testmanagerd[24387:1592146] systemUIOrientation <AXUIElement 0x7fea43823ad0> {pid=0}[kAXSpringBoardApplication]: 0 <AXUIElement 0x7fea43a03a80> {pid=24378}
+09:03:41.440 testmanagerd[24387:1592146] systemUIOrientation <AXUIElement 0x7fea43a03a80> {pid=24378}[kAXApplicationOrientationAttribute]: 0 1
+09:03:41.440 testmanagerd[24387:1592146] Got screenshot, rotating to system UI orientation 1
+09:03:41.440 testmanagerd[24387:1592146] systemUIOrientation <AXUIElement 0x7fea43823ad0> {pid=0}[kAXSpringBoardApplication]: 0 <AXUIElement 0x7fea43409280> {pid=24378}
+09:03:41.440 testmanagerd[24387:1592146] systemUIOrientation <AXUIElement 0x7fea43409280> {pid=24378}[kAXApplicationOrientationAttribute]: 0 1
+09:03:41.453 testmanagerd[24387:1592146] Replying with data 0x7fea43604040 (23975 bytes), error (null)
+09:03:41.454 XCTRunner[24489:1592611] Waiting for app quiescence...
+09:03:41.456 testmanagerd[24387:1592146] -[XCTestManager allowUITestControlForPID:] 24489 vs 24489
+09:03:41.456 testmanagerd[24387:1592146] Got AXElement for <XCAccessibilityElement: 0x7fea43909ab0> pid: 24490, context: 4D9272C7-3024-4062-B0FA-E16EF426F17A, payload: {
+    pid = 24490;
+    "uid.elementID" = 1;
+    "uid.elementOrHash" = 0;
+}: <AXUIElement 0x7fea43b00480> {pid=24490}
+09:03:40.845 CoreSimulatorBridge[24386] Requesting launch of com.-KamilPyc.FastlaneTest with options: {
+    arguments =     (
+    );
+    environment =     {
+        "LLVM_PROFILE_FILE" = "/var/folders/sr/mgl8nbtx3llcc_7s79hbqyxn72jyd2/T/com.-KamilPyc.FastlaneTest/31D12246-D130-4E41-8592-2A2673AB623B-24329-000017CEAA917F45/FastlaneTest.app-%p.profdata";
+        NSApplicationQuitWithoutSuddenTermination = YES;
+        NSUnbufferedIO = YES;
+        "__XPC_LLVM_PROFILE_FILE" = "/var/folders/sr/mgl8nbtx3llcc_7s79hbqyxn72jyd2/T/com.-KamilPyc.FastlaneTest/31D12246-D130-4E41-8592-2A2673AB623B-24329-000017CEAA917F45/FastlaneTest.app-%p.profdata";
+    };
+    stderr = "/dev/ttys003";
+    stdout = "/dev/ttys003";
+    "wait_for_debugger" = 0;
+}
+09:03:40.996 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:41.009 SpringBoard[24378] LICreateIconForImage passed NULL CGImageRef image
+09:03:41.293 backboardd[24379] SecTaskLoadEntitlements failed error=22 cs_flags=200, task->pid_self=-1
+09:03:41.293 backboardd[24379] SecTaskCopyDebugDescription: FastlaneTest[24490]
+09:03:41.294 backboardd[24379] SecTaskLoadEntitlements failed error=22 cs_flags=200, task->pid_self=-1
+09:03:41.294 backboardd[24379] SecTaskCopyDebugDescription: FastlaneTest[24490]
+09:03:41.294 backboardd[24379] SecTaskLoadEntitlements failed error=22 cs_flags=200, task->pid_self=-1
+09:03:41.294 backboardd[24379] SecTaskCopyDebugDescription: FastlaneTest[24490]
+09:03:41.294 backboardd[24379] SecTaskLoadEntitlements failed error=22 cs_flags=200, task->pid_self=-1
+09:03:41.294 backboardd[24379] SecTaskCopyDebugDescription: FastlaneTest[24490]
+09:03:41.295 backboardd[24379] SecTaskLoadEntitlements failed error=22 cs_flags=200, task->pid_self=-1
+09:03:41.295 backboardd[24379] SecTaskCopyDebugDescription: FastlaneTest[24490]
+09:03:41.301 FastlaneTest[24490] assertion failed: 15G1004 13E230: libxpc.dylib + 57882 [66C28065-C9DB-3C8E-926F-5A40210A6D1B]: 0x7d
+09:03:41.416 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:41.416 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:41.430 SpringBoard[24378] [MPUSystemMediaControls] Updating supported commands for now playing application.
+09:03:41.518 testmanagerd[24387:1592146] Performed AXAction 2043 for pid 24490
+09:03:41.519 testmanagerd[24387:1592146] -[XCTestManager allowUITestControlForPID:] 24489 vs 24489
+09:03:41.519 testmanagerd[24387:1592146] Got AXElement for <XCAccessibilityElement: 0x7fea43a00f80> pid: 24490, context: 4D9272C7-3024-4062-B0FA-E16EF426F17A, payload: {
+    pid = 24490;
+    "uid.elementID" = 1;
+    "uid.elementOrHash" = 0;
+}: <AXUIElement 0x7fea43a04ad0> {pid=24490}
+09:03:41.556 testmanagerd[24387:1589508] AX Notification 4002
+09:03:41.557 testmanagerd[24387:1589508] Got user testing notification with payload {
+    controllerClass = "FastlaneTest.ViewController";
+    event = ViewDidAppear;
+}
+09:03:41.557 testmanagerd[24387:1589508] AX Notification 4002
+09:03:41.557 XCTRunner[24489:1592638] Got AX notification 4002
+09:03:41.557 testmanagerd[24387:1592146] Performed AXAction 2042 for pid 24490
+09:03:41.558 testmanagerd[24387:1589508] Got user testing notification with payload {
+    event = AnimationsNonActive;
+}
+09:03:41.558 XCTRunner[24489:1592638] Got AX notification 4002
+09:03:41.558 testmanagerd[24387:1589508] AX Notification 1011
+09:03:41.558 XCTRunner[24489:1592638] Got animations reply.
+09:03:41.558 XCTRunner[24489:1592638] Animations are not active.
+09:03:41.558 XCTRunner[24489:1592638] <XCUIApplicationProcess: 0x7fae0961afb0 com.-KamilPyc.FastlaneTest (24490)> hasReceivedAnimationsHaveFinished 0 -> 1
+09:03:41.558 XCTRunner[24489:1593736] Got AX notification 4002
+09:03:41.558 XCTRunner[24489:1592638] <XCUIApplicationProcess: 0x7fae0961afb0 com.-KamilPyc.FastlaneTest (24490)> event loop is idle 0 -> 1
+09:03:41.559 XCTRunner[24489:1593736] Got event loop idle reply.
+09:03:41.558 testmanagerd[24387:1589508] AX Notification 4002
+09:03:41.558 testmanagerd[24387:1589508] Got user testing notification with payload {
+    event = RunLoopIsIdle;
+}
+09:03:41.559 XCTRunner[24489:1593736] Event loop is idle.
+09:03:41.559 XCTRunner[24489:1592638] <XCUIApplicationProcess: 0x7fae0961afb0 com.-KamilPyc.FastlaneTest (24490)> hasReceivedAnimationsHaveFinished 0 -> 1
+09:03:41.559 XCTRunner[24489:1592638] <XCUIApplicationProcess: 0x7fae0961afb0 com.-KamilPyc.FastlaneTest (24490)> event loop is idle 0 -> 1
+09:03:41.559 XCTRunner[24489:1592611] App has quiesced.
+09:03:41.559 XCTRunner[24489:1592611] -[FastlaneTestUITests testExample] finished activity <XCActivityRecord: 0x7fae0c0c7880> 2016-09-07 07:03:41 +0000: Wait for app to idle (0.138648s)
+09:03:41.560 XCTRunner[24489:1592611] done launching and has quiesced
+09:03:41.560 XCTRunner[24489:1592611] -[FastlaneTestUITests testExample] finished activity <XCActivityRecord: 0x7fae09668790> 2016-09-07 07:03:38 +0000: Launch com.-KamilPyc.FastlaneTest (3.38835s)
+09:03:41.561 XCTRunner[24489:1592611] -[FastlaneTestUITests testExample] finished activity <XCActivityRecord: 0x7fae0c41f360> 2016-09-07 07:03:38 +0000: Set Up (3.39455s)
+09:03:41.561 XCTRunner[24489:1592611] -[FastlaneTestUITests testExample] started activity <XCActivityRecord: 0x7fae0c20d460> 2016-09-07 07:03:41 +0000: Tear Down
+09:03:41.562 XCTRunner[24489:1592611] -[FastlaneTestUITests testExample] finished activity <XCActivityRecord: 0x7fae0c20d460> 2016-09-07 07:03:41 +0000: Tear Down (0.000364959s)
+09:03:41.562 XCTRunner[24489:1592611] -[_XCTestDriverTestObserver testCaseDidFinish:]
+09:03:41.571 xcodebuild[24329:1588679] _XCT_testCaseDidFinishForTestClass:FastlaneTestUITests.FastlaneTestUITests method:testExample withStatus:passed duration:3.396952986717224
+09:03:41.563 XCTRunner[24489:1592611] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+09:03:41.571 xcodebuild[24329:1588679] _XCT_testSuite:FastlaneTestUITests didFinishAt:2016-09-07 07:03:41 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:3.396952986717224 totalDuration:3.3976109623909
+09:03:41.563 XCTRunner[24489:1592611] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+09:03:41.571 xcodebuild[24329:1588679] _XCT_testSuite:FastlaneTestUITests.xctest didFinishAt:2016-09-07 07:03:41 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:3.396952986717224 totalDuration:3.398787021636963
+09:03:41.564 XCTRunner[24489:1592611] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+09:03:41.571 xcodebuild[24329:1588679] _XCT_testSuite:All tests didFinishAt:2016-09-07 07:03:41 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:3.396952986717224 totalDuration:3.399895012378693
+09:03:41.564 XCTRunner[24489:1592611] Finished running suite.
+09:03:41.564 XCTRunner[24489:1592611] -[_XCTestDriverTestObserver testBundleDidFinish:], Flushing connection to IDE...
+09:03:41.572 xcodebuild[24329:1588679] -[_IDETestManagerAPIMediator _XCT_didFinishExecutingTestPlan]
+09:03:41.572 xcodebuild[24329:1588679] <IDEExecutionOperationTracker: 0x7f7f9dca7160: Launch application com.-KamilPyc.FastlaneTest for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7f7f9dca6a40: subtrackers=none>"
+)> is not finished
+09:03:41.573 xcodebuild[24329:1588679] Observed termination of tracker for token 140186084863200 for launch of com.-KamilPyc.FastlaneTest at /Users/kamil.pyc/Documents/testFastlane/FastlaneTest/build/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FastlaneTest.app
+09:03:41.573 xcodebuild[24329:1588679] _finishWithError:(null) didCancel: 0
+    t =     0.00s     Start Test
+    t =     0.00s     Set Up
+    t =     0.01s         Launch com.-KamilPyc.FastlaneTest
+    t =     2.90s             Waiting for accessibility to load
+    t =     3.26s             Wait for app to idle
+    t =     3.40s     Tear Down
+Test Case '-[FastlaneTestUITests.FastlaneTestUITests testExample]' passed (3.397 seconds).
+Test Suite 'FastlaneTestUITests' passed at 2016-09-07 09:03:41.562.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.397 (3.398) seconds
+Test Suite 'FastlaneTestUITests.xctest' passed at 2016-09-07 09:03:41.563.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.397 (3.399) seconds
+09:03:41.573 XCTRunner[24489:1592611] Calling completion.
+09:03:41.575 testmanagerd[24387:1591436] Test process connection invalidated or interrupted, closing test session <XCTestSession: 0x7fea4390c1f0>.
+09:03:41.575 testmanagerd[24387:1592146] Closed <XCTestSession: 0x7fea4390c1f0>, removing from (
+    "<XCTestSession: 0x7fea4390c1f0>"
+)
+09:03:41.576 testmanagerd[24387:1592146] Tearing down test session <XCTestSession: 0x7fea4390c1f0>.
+09:03:41.576 testmanagerd[24387:1592146] Considering exiting, 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions...
+09:03:41.576 testmanagerd[24387:1592146] testmanagerd exiting, idle with no test activity.
+09:03:41.577 testmanagerd[24387:1589508] AX Notification 1021
+09:03:41.578 xcodebuild[24329:1588679] Got death notice for pid 24490, removing from SimulatorSessionMap
+09:03:41.578 xcodebuild[24329:1588679] Checking to see if pid 24489 is valid: kill(pid, 0) = 0 (YES, it's still running)
+09:03:41.581 xcodebuild[24329:1588679] Got death notice for pid 24489, removing from SimulatorSessionMap
+09:03:41.582 xcodebuild[24329:1588679] Launch session expired.
+09:03:41.518 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:41.519 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:41.558 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:41.572 SpringBoard[24378] HW kbd: Failed to set (null) as keyboard focus
+09:03:41.575 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
+09:03:41.576 assertiond[24382] assertion failed: 15G1004 13E230: assertiond + 15801 [3C808658-78EC-3950-A264-79A64E0E463B]: 0x1
